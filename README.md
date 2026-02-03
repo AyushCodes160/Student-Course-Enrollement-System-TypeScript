@@ -2,7 +2,7 @@
 
 A console-based Student Course Enrollment System built using **TypeScript** and **Object-Oriented Programming (OOP)** principles. This application runs entirely in the terminal with an interactive CLI.
 
-## 🚀 Features
+## Features
 
 -   **Entities**: Students, Instructors, Courses, and Enrollments.
 -   **Interactive CLI**: Easy-to-use menu to manage the system.
@@ -15,12 +15,12 @@ A console-based Student Course Enrollment System built using **TypeScript** and 
     -   Sort Courses by credits.
 -   **In-Memory Storage**: Data persists while the application is running.
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 -   [Node.js](https://nodejs.org/) (v14 or higher)
 -   npm (Node Package Manager)
 
-## 📦 Installation
+## Installation
 
 1.  Clone the repository:
     ```bash
@@ -33,7 +33,7 @@ A console-based Student Course Enrollment System built using **TypeScript** and 
     npm install
     ```
 
-## 🎮 How to Use
+## How to Use
 
 1.  **Start the Application**:
     ```bash
@@ -56,7 +56,7 @@ A console-based Student Course Enrollment System built using **TypeScript** and 
     -   **Add a Course**: Select `3`, enter Title, Description, and Credits.
     -   **Enroll**: Select `5`, you will need the `Student ID` (from option 2) and `Course ID` (from option 4).
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
 src/
@@ -65,7 +65,7 @@ src/
 └── index.ts        # Main entry point and CLI logic
 ```
 
-## 📝 Tech Stack
+## Tech Stack
 
 -   **Language**: TypeScript
 -   **Runtime**: Node.js (via `ts-node`)
